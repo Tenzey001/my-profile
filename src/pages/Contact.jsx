@@ -16,9 +16,7 @@ const Contact = () => (
         href="https://linkedin.com/in/yourprofile"
         target="_blank"
         rel="noreferrer"
-      >
-        yourprofile
-      </a>
+      ></a>
       <p>Number: 17569040</p>
     </p>
   </section>

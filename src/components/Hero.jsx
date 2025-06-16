@@ -1,3 +1,5 @@
+import myPhoto from "../assets/myPhoto.png";
+
 function Hero() {
   return (
     <section className="hero">
@@ -5,6 +7,17 @@ function Hero() {
       {/* For now, let's keep it simple */}
 
       <div className="hero-text">
+        <img
+          src={myPhoto}
+          style={{
+            width: "300px",
+            borderRadius: "23rem",
+            padding: "2rem",
+            maxWidth: "750px",
+            margin: "2rem auto",
+            textAlign: "center",
+          }}
+        />
         <h1>Hi, I'm Tenzin Choden</h1>
         <p>
           I am committed to learning [Programming]with great interest and

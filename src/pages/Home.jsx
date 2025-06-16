@@ -5,6 +5,7 @@ const Home = () => (
   <>
     <Hero />
     <section
+    
       style={{
         padding: "2rem",
         maxWidth: "750px",
