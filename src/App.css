@@ -1,0 +1,117 @@
+/* Reset some basic styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Body */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #121212;
+  color: #f0f0f0;
+  padding: 1.25rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  user-select: none;
+}
+
+.navbar h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 6rem 2rem 5rem;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  color: #fff;
+  box-shadow: inset 0 0 60px rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  max-width: 600px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* About Section */
+.about {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.1);
+  margin: 3rem auto;
+  max-width: 750px;
+}
+
+.about h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.about p {
+  font-size: 1.125rem;
+  color: #444;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+  letter-spacing: 0.01em;
+}
+
+/* Footer */
+.footer {
+  background-color: #121212;
+  color: #ccc;
+  padding: 1.25rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 1px solid #222;
+  user-select: none;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-top: 4rem;
+}
